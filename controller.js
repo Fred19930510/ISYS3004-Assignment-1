@@ -1,9 +1,12 @@
 var now_theme = 0;
 
+// Used to change the value of a global variable
 function setGlobalVariable(variable_name, variable_value){
 	document.documentElement.style.setProperty(variable_name, variable_value);
 }
 
+// The response function of the switch themem button changes the value of 
+// the global variable when the button is clicked to achieve the effect of switching themes.
 function switch_theme(){
 	if(now_theme==0){
 		setGlobalVariable("--background_color", "#26333A");

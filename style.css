@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+<!-- global variables, to control the text color, link color and background color of the page -->
 :root{
 	--text_color: #000000;
 	--link_color: #267DD3;
