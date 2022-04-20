@@ -25,3 +25,4 @@ function switch_theme(){
 		now_theme=0;
 	}
 }
+//color code from https://www.w3schools.com/colors/colors_picker.asp
